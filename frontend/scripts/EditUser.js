@@ -36,4 +36,8 @@ formTag.addEventListener("submit", async (e) => {
 
   window.location.href = "Users.html";
   alert("User Updated");
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 08b81f687dbb34acfdf18edf5558fb1bd51c4a5f

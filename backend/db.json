@@ -5,6 +5,27 @@
       "password": "123",
       "email": "dh123@email.com",
       "id": 1
+<<<<<<< HEAD
+=======
+    },
+    {
+      "fullname": "Himanshu",
+      "email": "him@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "fullname": "Akash",
+      "password": "123456",
+      "email": "akash@gmail.com",
+      "id": 7
+    },
+    {
+      "fullname": "Raj",
+      "password": "123456",
+      "email": "raj@gmail.com",
+      "id": 8
+>>>>>>> 08b81f687dbb34acfdf18edf5558fb1bd51c4a5f
     }
   ]
 }
