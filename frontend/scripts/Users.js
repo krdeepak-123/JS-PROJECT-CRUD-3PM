@@ -38,8 +38,9 @@ async function deleteUser(id) {
 
 function editUser(id) {
   window.location.href = `EditUser.html?id=${id}`;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 08b81f687dbb34acfdf18edf5558fb1bd51c4a5f
+// <<<<<<< HEAD
+// }
+// ===========
+// }
+// >>>>>>> 08b81f687dbb34acfdf18edf5558fb1bd51c4a5f

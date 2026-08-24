@@ -14,10 +14,9 @@ formTag.addEventListener("submit", async (e) => {
   };
 
   console.log(newUser);
-<<<<<<< HEAD
-=======
 
->>>>>>> 08b81f687dbb34acfdf18edf5558fb1bd51c4a5f
+
+
   await fetch("http://localhost:5000/users", {
     method: "POST",
     headers: {
@@ -25,10 +24,6 @@ formTag.addEventListener("submit", async (e) => {
     },
     body: JSON.stringify(newUser),
   });
+ alert("User Created");
 
-  alert("User Created");
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 08b81f687dbb34acfdf18edf5558fb1bd51c4a5f
