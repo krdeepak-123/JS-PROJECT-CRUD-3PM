@@ -13,28 +13,16 @@
       "id": 2
     },
     {
-      "fullname": "Yash",
-      "email": "yash@gmail.com",
-      "password": "123",
-      "id": 3
-    },
-    {
-      "fullname": "Hakim",
-      "email": "hakim@gmail.com",
-      "password": "123",
-      "id": 5
-    },
-    {
-      "fullname": "Harsh",
-      "email": "harsh@gmail.com",
-      "password": "123",
-      "id": 6
-    },
-    {
       "fullname": "Akash",
       "password": "123456",
       "email": "akash@gmail.com",
       "id": 7
+    },
+    {
+      "fullname": "Raj",
+      "password": "123456",
+      "email": "raj@gmail.com",
+      "id": 8
     }
   ]
 }

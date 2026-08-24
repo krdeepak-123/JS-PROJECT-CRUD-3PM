@@ -3,9 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>Users | CRUD App</title>
+
+    <link rel="stylesheet" href="../styles/index.css" />
   </head>
+
   <body>
-    <h1>Users Page</h1>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <a href="../index.html" class="logo">
+        <span>CRUD</span> App
+      </a>
+
+      <nav class="navlinks">
+        <a href="./CreateUser.html">
+          Create User
+        </a>
+
+        <a href="./Users.html" class="active">
+          All Users
+        </a>
+      </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="main-container users-page">
+
+      <!-- PAGE HEADER -->
+      <section class="users-header">
+
+        <div>
+          <div class="badge">
+            👥 User Management
+          </div>
+
+          <h1>
+            All <span>Users</span>
+          </h1>
+
+          <p>
+            Manage all registered users from one place.
+          </p>
+        </div>
+
+        <a href="./CreateUser.html" class="add-user-btn">
+          <span>+</span>
+          Add User
+        </a>
+
+      </section>
+
+
+      <!-- USERS -->
+      <section class="users-container"></section>
+
+    </main>
+
+
+    <script src="../scripts/Users.js"></script>
+
   </body>
 </html>
