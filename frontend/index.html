@@ -4,8 +4,148 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
   </head>
   <body>
-    <h1>Home Page</h1>
+    
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <a href="./index.html" class="logo">
+        <span>CRUD</span> App
+      </a>
+
+      <nav class="navlinks">
+        <a href="./pages/CreateUser.html">Create User</a>
+        <a href="./pages/Users.html">All Users</a>
+      </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <main class="main-container">
+
+      <section class="hero">
+
+        <div class="hero-content">
+          <div class="badge">
+            ✨ Simple & Powerful
+          </div>
+
+          <h1>
+            Manage Your Users
+            <span>Effortlessly.</span>
+          </h1>
+
+          <p>
+            A modern and simple CRUD application to create, manage,
+            update and delete users with ease.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="./pages/CreateUser.html" class="primary-btn">
+              Create User
+              <span>→</span>
+            </a>
+
+            <a href="./pages/Users.html" class="secondary-btn">
+              View Users
+            </a>
+          </div>
+        </div>
+
+
+        <!-- HERO CARD -->
+        <div class="hero-card">
+
+          <div class="card-header">
+            <div>
+              <p>Dashboard</p>
+              <h3>User Management</h3>
+            </div>
+
+            <div class="status-dot"></div>
+          </div>
+
+          <div class="user-preview">
+            <div class="avatar">SK</div>
+
+            <div class="user-info">
+              <h4>Sample User</h4>
+              <p>user@example.com</p>
+            </div>
+
+            <span class="active">Active</span>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span>Users</span>
+              <strong>128</strong>
+            </div>
+
+            <div class="stat">
+              <span>Active</span>
+              <strong>112</strong>
+            </div>
+
+            <div class="stat">
+              <span>New</span>
+              <strong>16</strong>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- FEATURES -->
+      <section class="features">
+
+        <div class="section-heading">
+          <p>FEATURES</p>
+          <h2>Everything you need to manage users</h2>
+        </div>
+
+        <div class="feature-grid">
+
+          <div class="feature-card">
+            <div class="feature-icon">＋</div>
+            <h3>Create Users</h3>
+            <p>
+              Easily add new users with a clean and simple form.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">◉</div>
+            <h3>View Users</h3>
+            <p>
+              View all registered users in one organized place.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">✎</div>
+            <h3>Update Users</h3>
+            <p>
+              Modify user information whenever you need.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">⌫</div>
+            <h3>Delete Users</h3>
+            <p>
+              Remove unwanted users quickly and securely.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
   </body>
 </html>

@@ -4,8 +4,150 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../styles//index.css">
+
 </head>
 <body>
-  <h1>Edit User Page</h1>
+   <!-- NAVBAR -->
+    <header class="navbar">
+      <a href="../index.html" class="logo">
+        <span>CRUD</span> App
+      </a>
+
+      <nav class="navlinks">
+        <a href="./CreateUser.html" class="active">
+          Create User
+        </a>
+
+        <a href="./Users.html">
+          All Users
+        </a>
+      </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="main-container">
+
+      <section class="form-page">
+
+        <!-- LEFT CONTENT -->
+        <div class="form-intro">
+
+          <div class="badge">
+            ✨ User Management
+          </div>
+
+          <h1>
+            Update
+            <span>user account.</span>
+          </h1>
+
+          <p>
+            Add a new user to your application by providing
+            their basic account information.
+          </p>
+
+          <div class="intro-points">
+            <div>
+              <span>✓</span>
+              Simple user creation
+            </div>
+
+            <div>
+              <span>✓</span>
+              Secure account details
+            </div>
+
+            <div>
+              <span>✓</span>
+              Easy user management
+            </div>
+          </div>
+
+        </div>
+
+
+        <!-- FORM CARD -->
+        <div class="form-card">
+
+          <div class="form-header">
+            <div class="form-icon">
+              +
+            </div>
+
+            <div>
+              <h2>Update User</h2>
+              <p>Enter the details below</p>
+            </div>
+          </div>
+
+
+          <form id="form">
+
+            <!-- FULLNAME -->
+            <div class="input-group">
+              <label for="fullname">
+                Fullname
+              </label>
+
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your fullname"
+                required
+              />
+            </div>
+
+
+            <!-- EMAIL -->
+            <div class="input-group">
+              <label for="email">
+                Email
+              </label>
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+
+            <!-- PASSWORD -->
+            <div class="input-group">
+              <label for="password">
+                Password
+              </label>
+
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+
+
+            <!-- BUTTON -->
+            <button type="submit" class="create-btn">
+              Update User
+              <span>→</span>
+            </button>
+
+          </form>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+      <script src="../scripts/EditUser.js"></script>
 </body>
 </html>

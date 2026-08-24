@@ -1,34 +1,10 @@
 {
   "users": [
     {
-      "fullname": "Nishant TW",
-      "email": "nishant@gmail.com",
+      "fullname": "Yadav ji",
       "password": "123",
+      "email": "dh123@email.com",
       "id": 1
-    },
-    {
-      "fullname": "Himanshu",
-      "email": "him@gmail.com",
-      "password": "123",
-      "id": 2
-    },
-    {
-      "fullname": "Yash",
-      "email": "yash@gmail.com",
-      "password": "123",
-      "id": 3
-    },
-    {
-      "fullname": "Hakim",
-      "email": "hakim@gmail.com",
-      "password": "123",
-      "id": 5
-    },
-    {
-      "fullname": "Harsh",
-      "email": "harsh@gmail.com",
-      "password": "123",
-      "id": 6
     }
   ]
 }
